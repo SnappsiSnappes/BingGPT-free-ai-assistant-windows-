@@ -1,6 +1,6 @@
 
 # Audio-based Chatbot
-### This is an audio-based chatbot that listens to voice prompts and responds with text-to-speech. The bot uses the OpenAI API for generating responses to user prompts.
+### This is an audio-based chatbot that listens to voice prompts and responds with text-to-speech. The bot uses the Bing (free) and OpenAI API (not free🤡) for generating responses to user prompts.
 
 ## Requirements
 - openai
