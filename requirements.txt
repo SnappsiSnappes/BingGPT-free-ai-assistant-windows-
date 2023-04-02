@@ -1,0 +1,6 @@
+openai
+asyncio
+pyttsx3
+pydub
+speechrecognition
+whisper
