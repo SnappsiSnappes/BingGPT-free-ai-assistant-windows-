@@ -22,6 +22,9 @@
 6) create a folder inside directory with script , name it - 'cookies.json' and paste your cookies in this file 
 7) launch
 
+## issuses with installing ffempeg correctly
+1) https://chocolatey.org/install#individual install chocolately using this code in powershell ```Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))```
+2) then using powershell  ```choco install ffmpeg```
 ## Usage
 - Clone the repository: ```git clone https://github.com/[username]/audio-based-chatbot.git``` 
 - Install requirements: ```pip install -r requirements.txt```
