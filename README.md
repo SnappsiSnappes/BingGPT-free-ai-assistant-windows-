@@ -29,7 +29,7 @@
 - Clone the repository: ```git clone https://github.com/[username]/audio-based-chatbot.git``` 
 - Install requirements: ```pip install -r requirements.txt```
 - Replace the [paste your OpenAI API key here] placeholder with your API key in the code.
-- Run the script: python chatbot.py
+- Run the script
 - Say "bing" or "gpt" to wake the bot.
 - Say a prompt to receive a response.
 # Functionality
