@@ -20,7 +20,7 @@
 4) download extinsinon https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm
 5) go to bing home page and click export cookies.json format to your clipbord 
 6) create a file inside directory with script , name it - 'cookies.json' and paste your cookies in this file 
-7) launch
+7) read USAGE
 
 ## issuses with installing ffempeg correctly
 1) https://chocolatey.org/install#individual install chocolately using this code in powershell ```Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))```
