@@ -31,5 +31,3 @@
 - Run the script
 - Say "bing" or "gpt" to wake the bot.
 - Say a prompt to receive a response.
-# Functionality
-The bot uses the Bing and GPT-3.5-turbo APIs to respond to user prompts. The bot is initialized with a recognizer object and wake word variables. When the bot hears the wake word, it waits for the user to say a prompt. The prompt is then passed to the appropriate API, and the response is synthesized into speech and played back to the user.
