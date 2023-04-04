@@ -19,7 +19,7 @@
 3) go to https://www.bing.com/ and get accecess to the gpt based bing-chat
 4) download extinsinon https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm
 5) go to bing home page and click export cookies.json format to your clipbord 
-6) create a folder inside directory with script , name it - 'cookies.json' and paste your cookies in this file 
+6) create a file inside directory with script , name it - 'cookies.json' and paste your cookies in this file 
 7) launch
 
 ## issuses with installing ffempeg correctly
