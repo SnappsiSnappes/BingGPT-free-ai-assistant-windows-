@@ -16,7 +16,7 @@
 ## instructions
 1) first register microsoft account and download microsoft edge (if you dont have one)
 2) Use vpn if you are Russian 
-3) go to https://www.bing.com/ and get accecess to the gpt based bing-chat
+3) go to https://www.bing.com/ and get accecess to the gpt based bing-chat (set your account country as USA)
 4) download extinsinon https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm
 5) go to bing home page and click export cookies.json format to your clipbord 
 6) create a file inside directory with script , name it - 'cookies.json' and paste your cookies in this file 
