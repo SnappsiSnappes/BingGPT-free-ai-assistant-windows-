@@ -36,6 +36,10 @@ pip install -r requirements.txt
 ## issuses with installing ffempeg correctly
 1) https://chocolatey.org/install#individual install chocolately using this code in powershell ```Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))```
 2) then using powershell  ```choco install ffmpeg```
+
+- Basic way - Install ffmpeg in any way you like. https://ffmpeg.org/download.html
+- unzip the folder to any directory (for example C:/ffmpeg) and enter the path to the PATH variable, for example C:/ffmpeg/bin/
+
 ## Usage
 - Install requirements: ```pip install -r requirements.txt```
 - Replace the [paste your OpenAI API key here] placeholder with your API key in the code.
