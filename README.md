@@ -1,3 +1,15 @@
+- Clone the repository on your computer.
+- Create a virtual environment with a command in **CMD/powershell**
+```python -m venv venv``` and activate it ```.venv/Scripts/activate```
+- Python 3.10.6 x64 - tested
+- Install all dependencies with the command
+```
+python.exe -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+- install ffmpeg in the correct way, there is an explanation below
+
+
 # Audio-based Chatbot
 ### This is an audio-based chatbot that listens to voice prompts and responds with text-to-speech. The bot uses the Bing (free) and OpenAI API (not free🤡) for generating responses to user prompts.
 
