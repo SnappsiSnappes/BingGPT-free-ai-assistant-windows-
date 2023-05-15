@@ -87,7 +87,7 @@ async def main():
                 continue
 
             if wake_word == BING_WAKE_WORD:
-                bot = Chatbot(cookiePath='cookies.json')
+                bot = Chatbot(cookie_path='cookies.json')
                 response = await bot.ask(prompt=user_input, conversation_style=ConversationStyle.precise)
 
                 for message in response["item"]["messages"]:
@@ -96,7 +96,7 @@ async def main():
 
                 bot_response = re.sub('\[\^\d+\^\]', '', bot_response)
 
-                bot = Chatbot(cookiePath='cookies.json')
+                bot = Chatbot(cookie_path='cookies.json')
                 response = await bot.ask(prompt=user_input, conversation_style=ConversationStyle.creative)
                 # Select only the bot response from the response dictionary
                 for message in response["item"]["messages"]:
