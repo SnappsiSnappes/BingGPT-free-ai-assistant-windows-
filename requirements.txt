@@ -4,3 +4,4 @@ pyttsx3
 pydub
 speechrecognition
 whisper
+openai-whisper
