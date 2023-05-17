@@ -71,7 +71,7 @@ async def main():
                     continue
 
             print("Speak a prompt...")
-            synthesize_speech('Чем я могу помочь?', 'response.mp3')
+            synthesize_speech('how can i help?', 'response.mp3')
             play_audio('response.mp3')
             audio = recognizer.listen(source)
 
